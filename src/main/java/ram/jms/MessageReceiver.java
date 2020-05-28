@@ -67,6 +67,7 @@ public class MessageReceiver
 			TextMessage textMessage = (TextMessage) message;
 			System.out.println("Received message '" + textMessage.getText() + "'");
 		}
+		System.out.println("Git Branch commit changes");
 		connection.close();
 	}
 }
